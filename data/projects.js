@@ -15,8 +15,7 @@ var projects = [
   new project("Viking Garden", ["CSS3, HTML5"], "Use CSS to style site, responsive to change in window size", "https://github.com/Holly-E/assignment_viking_css_garden"),
 ]
 
-console.log(projects);
-
 module.exports = {
+  project,
   projects
 }

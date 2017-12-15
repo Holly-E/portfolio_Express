@@ -1,2 +1,17 @@
-<h1>{{title}}</h1>
-<p>Welcome to {{title}}</p>
+<h1>Projects by Holly</h1>
+
+<div class="projects">
+  <div class="project-name">
+    {{#each projects as |project|}}
+      <a href=“/about/ {{project.name}} ”>
+           {{project.name}}
+         </a>
+  </div>
+  <div class="technologies">
+    {{#each project.techs as |tech|}}
+      {{tech}}
+    {{/each}}
+  </div>
+  <br />
+  {{/each}}
+</div>
