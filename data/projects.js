@@ -13,7 +13,7 @@ var projects = [
   new project("jQueryEE", "jQuery Events and Effects", ["JavaScript", "jQuery", "HTML", "CSS"], "3 exercises practicing dynamic jQuery, including a photo tagging app", "https://github.com/Holly-E/assignment_jq_ee_sprint"),
   new project("Blog", "Blog template", ["Sass", "CSS", "HTML"], "Practice Sass and responsive design by recreating a picture of a blog example", "https://github.com/Holly-E/assignment_markup_warmup"),
   new project("Server", "Node.js Server", ["Node.js", "JavaScript", "HTML"], "Use node.js to create a server run on a local host and fetch request/response data", "https://github.com/Holly-E/build_nodejs_server"),
-  new project("Garden", "Viking Garden", ["CSS3", "HTML5"], "Use CSS to style site, responsive to change in window size", "https://github.com/Holly-E/assignment_viking_css_garden"),
+  new project("Garden", "Viking Garden", ["CSS", "HTML"], "Use CSS to style site, responsive to change in window size", "https://github.com/Holly-E/assignment_viking_css_garden"),
 ]
 
 module.exports = {
