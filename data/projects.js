@@ -11,7 +11,7 @@ var projects = [
   new project(
     "Portfolio",
     "This Portfolio!",
-    ["Express", "Node.js", "JSON", "JavaScript", "HTML5", "Sass"],
+    ["Express", "Node.js", "JSON", "JavaScript", "HTML5", "CSS3"],
     "Use Express to populate my app with data on projects I've created",
     "https://github.com/Holly-E/portfolio_Express",
     "Portfolio.png"
