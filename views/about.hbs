@@ -1,4 +1,11 @@
-<h1>{{project.name}}</h1>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{title}}</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1>{{project.name}}</h1>
 
   <div class="description">
     {{project.description}}
@@ -16,3 +23,8 @@
         Github repository
        </a>
   </div>
+    <br />
+  <div>
+      <img class="image" src="/images/{{project.image}}" alt="image of project">
+  </div>
+</body>
