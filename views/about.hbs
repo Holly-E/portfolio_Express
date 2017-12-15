@@ -1,11 +1,18 @@
-<div class="About">
-  <div class="project-name">
-    {{project}}
+<h1>{{project.name}}</h1>
+
+  <div class="description">
+    {{project.description}}
   </div>
-  <div class="properties">
-    {{#each project as |properties|}}
-      {{properties}}
+  <div class="tech">
+    <h3>Technologies Implemented:</h3>
+    {{#each project.techs as |tech|}}
+      {{tech}}
       <br />
     {{/each}}
   </div>
-</div>
+  <br />
+  <div class="Github">
+    <a href="{{project.link}}">
+        Github repository
+       </a>
+  </div>

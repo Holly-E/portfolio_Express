@@ -1,9 +1,9 @@
 <h1>Projects by Holly</h1>
 
+{{#each projects as |project|}}
 <div class="projects">
   <div class="project-name">
-    {{#each projects as |project|}}
-      <a href=“/about/ {{project.name}} ”>
+      <a href="/about/{{project.tag}}">
            {{project.name}}
          </a>
   </div>
