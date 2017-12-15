@@ -1,18 +1,11 @@
-<h1>Projects by Holly</h1>
-
-<div class="projects">
+<div class="About">
   <div class="project-name">
-    {{#each projects as |project|}}
-      <a href=“/about/ {{project.name}} ”>
-           {{project.name}}
-         </a>
+    {{project}}
   </div>
-  <div class="technologies">
-    {{#each project.techs as |tech|}}
-      {{tech}}
+  <div class="properties">
+    {{#each project as |properties|}}
+      {{properties}}
       <br />
     {{/each}}
   </div>
-  <br />
-  {{/each}}
 </div>
